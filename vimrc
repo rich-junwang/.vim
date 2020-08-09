@@ -556,3 +556,4 @@ call plug#end()
 "" reset from indentLine and fugitive plugins
 colorscheme jellybeans
 set concealcursor=nc
+command! Vb normal! <C-v>
