@@ -241,6 +241,7 @@ autocmd Filetype tex inoremap $ $$<Esc>:call BC_AddChar("$")<CR>i
 autocmd FileType tex :NoMatchParen
 " cursorline is slow on tex
 au FileType tex setlocal nocursorline
+let g:tex_flavor = 'latex'
 
 "vimtex pdf viewer
 let g:vimtex_view_general_viewer = '/Applications/Skim.app/Contents/SharedSupport/displayline'
