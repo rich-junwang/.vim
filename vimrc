@@ -287,6 +287,7 @@ command XmlLint :exec "silent 1,$!xmllint --format --recover - 2>/dev/null"
 
 ":> json formatter
 command Mjson :exec "silent 1,$!python -mjson.tool 2>/dev/null"
+command! Vb normal! <C-v>
 
 ":> Git Gutter
 ""highlight clear SignColumn
